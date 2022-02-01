@@ -1,0 +1,21 @@
+.section {
+    color:white;
+    font-size: 200px;
+    font-weight:bolder;
+    padding: 200px;
+}
+.first, .fifth  {
+    background-color: #6a994e;
+
+}
+
+.second, .fourth {
+    background-color: #f2e8cf;
+    color: black;
+    
+}
+
+.third {
+    background-color: #bc4749;
+}
+
