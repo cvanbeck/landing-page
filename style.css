@@ -9,7 +9,7 @@ body {
     background-color: #6a994e;
     display: flex;
     flex-direction: column;
-    padding: 18px 475px;
+    padding: 16px 48px;
 }
 
 .header-top {
@@ -27,6 +27,56 @@ body {
     font-size: 18px;
     display: flex;
     gap: 16px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    padding: 150px 0 150px;
+    justify-content: center;
+    gap: 48px;
+
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.header-text {
+    display: flex;
+    flex-direction:column;
+    width: 525px;
+    gap: 16px;
+}
+.header-picture {
+    background-color: grey;
+    width: 600px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-secondary {
+    font-size: 20px;
+}
+
+.button {
+    background-color: #3882F6;
+    padding: 16px 48px 16px;
+    border-radius: 15px;
+    align-self: flex-start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+p {
+    margin: 0;
 }
 
 ul {
