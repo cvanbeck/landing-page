@@ -65,8 +65,8 @@ body {
 
 .button {
     background-color: #3882F6;
-    padding: 16px 48px 16px;
-    border-radius: 15px;
+    padding: 8px 32px ;
+    border-radius: 7px;
     align-self: flex-start;
     display: flex;
     justify-content: center;
@@ -108,10 +108,9 @@ a {
 .quote {
     background-color: #bc4749;
     display: flex;
-    padding: 50px;
     justify-content: center;
     font-size:24px;
-    padding: 100px 0px;
+    padding: 150px 0px;
 }
 
 .quote-author {
@@ -124,11 +123,56 @@ a {
 
 .actual-quote {
     font-style: italic;
+    font-weight: lighter;
     
 }
 
 .author{
     align-self: flex-end;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0px;
+}
+
+.action-container{
+    background-color: #3882F6;
+    display: flex;
+    color: white;
+    width: 700px;
+    padding: 40px 75px;
+    border-radius: 7px;
+    align-items: center;
+    font-size:18px;
+    justify-content: space-between;
+
+}
+
+.action-left {
+    display: wrap;
+    flex-flow: column wrap;
+    gap: 12px;
+
+}
+
+.call {
+    font-weight: bold;
+    font-size:22px;
+}
+
+.sign-up {
+    font-weight: lighter;
+    font-size: 14px;
+}
+
+.sign-button {
+    border:solid #f2e8cf;
+    border-radius: 7px;
+    padding: 8px 32px;
     font-weight: bold;
 }
 
