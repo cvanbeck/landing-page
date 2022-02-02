@@ -51,7 +51,7 @@ body {
     gap: 16px;
 }
 .header-picture {
-    background-color: grey;
+
     width: 600px;
     height: 350px;
     display: flex;
