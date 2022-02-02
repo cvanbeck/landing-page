@@ -51,7 +51,7 @@ body {
     gap: 16px;
 }
 .header-picture {
-
+   
     width: 600px;
     height: 350px;
     display: flex;
@@ -108,8 +108,7 @@ a {
 .pictures {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+
     padding: 40px 0px 100px;
 }
 
@@ -117,11 +116,14 @@ a {
     padding-bottom: 40px;
     font-size: 34px;
     font-weight: bold;
+    justify-self: center;
+    align-self: center;
 }
 
 .pictures-body {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 75px;
    
 }
 
@@ -133,16 +135,18 @@ a {
     gap: 10px;
     text-align: center;
     font-size: 16px;
-    width: 175px;
+    width: 200px;
     flex-wrap:wrap;
 }
 
 .box-pic {
-    border: solid #3882ff;
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
+    border: solid #bc4749;
+    border-style:groove;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
     margin: 0px;
+ 
 }
 
 
